@@ -1,0 +1,47 @@
+
+body{
+    background-color: skyblue;
+}
+.row1{
+    border: 20px solid tomato;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    overflow: hidden;
+}
+.para1{
+    font-size: 2em;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 1.6;
+    color: rgb(128, 0, 248);
+    font-weight: bold;
+    padding: 0;
+    position: relative;
+    left: 100%;
+    overflow: visible;
+}
+.para2{
+    font-size: 2em;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 1.6;
+    color: rgb(128, 0, 248);
+    font-weight: bold;
+    padding: 0;
+}
+.div1{
+    width: 100%;
+ 
+}
+.btnn{
+    background-color: red;
+    height: 76px;
+    width: 200px;
+    border:none;
+    border-radius: 10px;
+    font-size: 1.5em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.inner{
+    width: 90%;
+    display:none;
+}

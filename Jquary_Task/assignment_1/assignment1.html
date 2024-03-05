@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment1_jquary</title>
+    <link rel="stylesheet" href="assignment1.css">
+
+
+</head>
+<body id="myDIV">
+
+<div class="div1">
+<button onclick="myFunction()" class="btn" id="btn1">
+    <p id="para1" class="p1">Day</p>
+</button>
+</div>
+
+<script>
+ let val=0;
+function myFunction() {
+if(val==0){
+  document.getElementById("myDIV").style.backgroundColor = "lightblue";
+  document.getElementById("btn1").style.backgroundColor = "Gray";
+  document.getElementById("para1").innerHTML="Night";
+  val=1;
+}
+else{
+    document.getElementById("myDIV").style.backgroundColor = "Gray";
+  document.getElementById("btn1").style.backgroundColor = "lightblue";
+  document.getElementById("para1").innerHTML="Day";
+  val=0;
+}
+}
+
+</script>
+</body>
+</html>
